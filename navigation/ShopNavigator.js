@@ -10,7 +10,7 @@ const ProductsNavigator = createStackNavigator(
     ProductsOverview: ProductsOverviewScreen,
   },
   {
-    defaultNavigationOption: {
+    defaultNavigationOptions: {
       headerStyle: {
         backgroundColor: Platform.OS === "android" ? Colors.primary : "",
       },
